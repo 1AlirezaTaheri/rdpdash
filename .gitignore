@@ -1,0 +1,15 @@
+# Native binaries (build with: go build -ldflags="-s -w")
+/rdpdash
+/rdpdash.exe
+/rdpdash-windows-amd64.exe
+/rdpdash-linux-amd64
+/rdpdash_test_bin*.exe
+
+# Run artifacts
+/hits*.txt
+/results*.csv
+/nopass.csv
+/showpass.csv
+
+# Test binaries built by `go test`
+*.test
